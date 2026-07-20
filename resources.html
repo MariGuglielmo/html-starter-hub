@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | HTML Starter Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/resources.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="site-logo" href="index.html">HTML Starter Hub</a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Guide</a></li>
+                <li><a href="resources.html" aria-current="page">Resources</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <p class="eyebrow">Learning resources</p>
+            <h1>Recommended HTML and Web Development Resources</h1>
+            <p>
+                Use these tools and references to review HTML structure, CSS styling,
+                accessibility, validation, JavaScript, and GitHub workflow.
+            </p>
+        </section>
+
+        <section class="content-panel">
+            <div class="section-heading">
+                <h2>Resource Library</h2>
+                <p>
+                    This list is generated dynamically with JavaScript from an array of resource objects.
+                </p>
+            </div>
+
+            <p id="resources-status" class="status-message">Loading resources...</p>
+
+            <div id="resource-list" class="card-grid" aria-live="polite"></div>
+
+            <noscript>
+                <p class="status-message">
+                    JavaScript is required to display the dynamic resource list.
+                </p>
+            </noscript>
+        </section>
+
+        <section class="callout">
+            <h2>How to use this page</h2>
+            <p>
+                Start with documentation, then check your HTML with a validator,
+                test accessibility with WAVE, and use GitHub Pages when you are ready
+                to publish your work.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HTML Starter Hub. Created for a web development final project.</p>
+    </footer>
+</body>
+
+</html>
