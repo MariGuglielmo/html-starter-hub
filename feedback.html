@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | HTML Starter Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/feedback.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="site-logo" href="index.html">HTML Starter Hub</a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Guide</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="feedback.html" aria-current="page">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <p class="eyebrow">Contact and feedback</p>
+            <h1>Send Feedback or Ask a Question</h1>
+            <p>
+                Use this form to ask a question, suggest a resource, or share feedback
+                about the HTML Starter Hub.
+            </p>
+        </section>
+
+        <section class="form-card">
+            <h2>Feedback Form</h2>
+            <p class="form-note">Fields marked with an asterisk are required.</p>
+
+            <form id="feedback-form" action="#" method="post">
+                <div class="field">
+                    <label for="name">Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email <span aria-hidden="true">*</span></label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="topic">Topic <span aria-hidden="true">*</span></label>
+                    <select id="topic" name="topic" required>
+                        <option value="">Choose a topic</option>
+                        <option value="html-basics">HTML basics</option>
+                        <option value="css-layout">CSS layout</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="accessibility">Accessibility</option>
+                        <option value="github-pages">GitHub Pages</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="experience">Experience level</label>
+                    <select id="experience" name="experience">
+                        <option value="">Choose one</option>
+                        <option value="new">I am new to HTML</option>
+                        <option value="some-practice">I have some practice</option>
+                        <option value="reviewing">I am reviewing course topics</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message <span aria-hidden="true">*</span></label>
+                    <textarea id="message" name="message" rows="6" minlength="10" required></textarea>
+                </div>
+
+                <button type="submit">Submit feedback</button>
+            </form>
+
+            <p id="form-response" class="form-response" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HTML Starter Hub. Created for a web development final project.</p>
+    </footer>
+</body>
+
+</html>
