@@ -23,43 +23,147 @@
 
     <main>
         <section class="hero">
-            <h1>A Beginner’s Guide to HTML</h1>
-            <p>
-                Learn the basic structure, elements, and habits needed to build your first web page.
-            </p>
-            <a class="button" href="resources.html">Explore resources</a>
+            <div class="hero-copy">
+                <p class="eyebrow">01 / Beginner Guide</p>
+
+                <h1>
+                    Learn HTML by building real pages.
+                </h1>
+
+                <p>
+                    A beginner-friendly resource hub for learning HTML structure, semantic
+                    elements, links, media, forms, accessibility, and the workflow behind
+                    publishing web pages.
+                </p>
+
+                <div class="button-row">
+                    <a class="button" href="resources.html">Start learning</a>
+                    <a class="button button-secondary" href="feedback.html">Ask a question</a>
+                </div>
+            </div>
+
+            <aside class="hero-panel" aria-label="HTML learning focus">
+                <p class="panel-kicker">HTML focus</p>
+
+                <h2>Read. Mark up. Connect.</h2>
+
+                <p class="panel-text">
+                    Learn the building blocks used to organize content on the web.
+                </p>
+
+                <ul class="focus-list">
+                    <li>Page structure</li>
+                    <li>Headings & text</li>
+                    <li>Links</li>
+                    <li>Images & media</li>
+                    <li>Lists & tables</li>
+                    <li>Forms</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="content-panel two-column">
+            <div>
+                <p class="eyebrow">Core concept</p>
+                <h2>What is HTML?</h2>
+                <p>
+                    HTML stands for HyperText Markup Language. It gives web content
+                    structure by identifying headings, paragraphs, links, lists, images,
+                    forms, and other page elements.
+                </p>
+            </div>
+
+            <div class="definition-box">
+                <p class="definition-label">Working model</p>
+                <p>
+                    HTML structures the content. CSS controls the visual presentation.
+                    JavaScript adds interactivity.
+                </p>
+            </div>
+        </section>
+
+        <section class="lesson-overview" aria-labelledby="lesson-overview-title">
+            <div class="lesson-intro">
+                <p class="eyebrow">HTML concept map</p>
+                <h2 id="lesson-overview-title">What beginners need to understand first</h2>
+                <p>
+                    HTML gives structure and meaning to web content. Before styling a page,
+                    it helps to understand what each part of the content is supposed to do.
+                </p>
+            </div>
+
+            <div class="lesson-list">
+                <article class="lesson-item">
+                    <p class="lesson-number">01</p>
+                    <h3>Structure</h3>
+                    <p>
+                        Organize a page with sections such as the header, main content area,
+                        navigation, and footer.
+                    </p>
+                </article>
+
+                <article class="lesson-item">
+                    <p class="lesson-number">02</p>
+                    <h3>Meaning</h3>
+                    <p>
+                        Use headings, paragraphs, lists, images, and links to describe the role
+                        of each piece of content.
+                    </p>
+                </article>
+
+                <article class="lesson-item">
+                    <p class="lesson-number">03</p>
+                    <h3>Interaction</h3>
+                    <p>
+                        Use links and forms to help people move through a site, ask questions,
+                        and complete actions.
+                    </p>
+                </article>
+            </div>
         </section>
 
         <section>
-            <h2>What is HTML?</h2>
-            <p>
-                HTML stands for HyperText Markup Language. It is used to structure the content of web pages.
-            </p>
-        </section>
+            <div class="section-heading">
+                <p class="eyebrow">Learning path</p>
+                <h2>What this site will cover</h2>
+            </div>
 
-        <section>
-            <h2>What this site will cover</h2>
             <div class="card-grid">
                 <article class="card">
                     <h3>Page Structure</h3>
-                    <p>Learn how the head, body, headings, paragraphs, and sections work together.</p>
+                    <p>
+                        Learn how the head, body, headings, paragraphs, and sections work together.
+                    </p>
                 </article>
 
                 <article class="card">
                     <h3>Common Elements</h3>
-                    <p>Review links, images, lists, tables, and forms used in beginner HTML pages.</p>
+                    <p>
+                        Review links, images, lists, tables, forms, and other beginner HTML elements.
+                    </p>
                 </article>
 
                 <article class="card">
                     <h3>Best Practices</h3>
-                    <p>Practice semantic HTML, accessibility, validation, and clean file organization.</p>
+                    <p>
+                        Practice semantic HTML, accessibility, validation, and clean file organization.
+                    </p>
                 </article>
             </div>
+        </section>
+
+        <section class="callout">
+            <p class="eyebrow">Next steps</p>
+            <h2>Build pages that people can understand.</h2>
+            <p>
+                Once the HTML structure is clear, CSS can improve the presentation and
+                JavaScript can add interaction without weakening the meaning of the page.
+            </p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 HTML Starter Hub. Created for a web development final project.</p>
+        <p>&copy; 2026 HTML Starter Hub. A beginner-friendly resource for learning HTML.</p>
     </footer>
 </body>
 
