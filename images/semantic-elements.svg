@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Semantic HTML elements diagram</title>
+  <desc id="desc">A diagram showing semantic HTML elements including header, nav, main, section, article, aside, and footer.</desc>
+
+  <rect width="900" height="620" fill="#fffaf0"/>
+  <rect x="40" y="40" width="820" height="540" rx="28" fill="#f5f0e6" stroke="#111111" stroke-width="8"/>
+
+  <text x="80" y="100" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#111111">
+    SEMANTIC HTML ELEMENTS
+  </text>
+
+  <rect x="90" y="130" width="720" height="55" rx="14" fill="#20c4cf" stroke="#111111" stroke-width="5"/>
+  <text x="120" y="166" font-family="Courier New, monospace" font-size="24" font-weight="700" fill="#111111">
+    &lt;header&gt;
+  </text>
+
+  <rect x="90" y="205" width="720" height="50" rx="14" fill="#fff36b" stroke="#111111" stroke-width="5"/>
+  <text x="120" y="238" font-family="Courier New, monospace" font-size="22" font-weight="700" fill="#111111">
+    &lt;nav&gt;
+  </text>
+
+  <rect x="90" y="275" width="720" height="220" rx="18" fill="#111111" stroke="#111111" stroke-width="5"/>
+  <text x="120" y="315" font-family="Courier New, monospace" font-size="24" font-weight="700" fill="#20c4cf">
+    &lt;main&gt;
+  </text>
+
+  <rect x="125" y="340" width="410" height="120" rx="16" fill="#fffaf0" stroke="#20c4cf" stroke-width="5"/>
+  <text x="150" y="378" font-family="Courier New, monospace" font-size="22" font-weight="700" fill="#111111">
+    &lt;section&gt;
+  </text>
+  <text x="150" y="410" font-family="Courier New, monospace" font-size="20" fill="#525252">
+    &lt;article&gt;
+  </text>
+  <text x="150" y="438" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#525252">
+    main topic or content block
+  </text>
+
+  <rect x="565" y="340" width="210" height="120" rx="16" fill="#fffaf0" stroke="#fff36b" stroke-width="5"/>
+  <text x="595" y="378" font-family="Courier New, monospace" font-size="22" font-weight="700" fill="#111111">
+    &lt;aside&gt;
+  </text>
+  <text x="595" y="438" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#525252">
+    related content
+  </text>
+
+  <text x="120" y="480" font-family="Courier New, monospace" font-size="24" font-weight="700" fill="#20c4cf">
+    &lt;/main&gt;
+  </text>
+
+  <rect x="90" y="515" width="720" height="45" rx="14" fill="#20c4cf" stroke="#111111" stroke-width="5"/>
+  <text x="120" y="545" font-family="Courier New, monospace" font-size="22" font-weight="700" fill="#111111">
+    &lt;footer&gt;
+  </text>
+</svg>
